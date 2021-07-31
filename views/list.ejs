@@ -1,0 +1,45 @@
+<%- include("header") -%>
+
+  <div class="box" id="heading">
+    <h1>
+      <%= listTitle %>
+    </h1>
+    <h1>
+      <%= today %>
+    </h1>
+  </div>
+
+  <div class="box">
+    <% newListItems.forEach(function(Item) { %>
+      <div class="item">
+
+        <form action="/delete" method="POST">
+
+          <button type="submit" name="listButt" value="<%= Item._id %>">
+            -
+          </button>
+          <input type="checkbox">
+
+          <p class="lineBlock">
+            <%= Item.name %>
+          </p>
+
+          <input type="hidden" name="pageName" value="<%= listTitle %>">
+        </form>
+
+      </div>
+      <% }) %>
+
+        <form class="item" action="/" method="post">
+          <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+          <button type="submit" name="pageName" value="<%= listTitle %>">+</button>
+        </form>
+  </div>
+
+  <%- include("footer") -%>
+
+  copyright claim <%=year %> Bhagirath Makwana
+
+</footer>
+
+</html>
