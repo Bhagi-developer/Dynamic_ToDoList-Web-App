@@ -16,8 +16,7 @@ Well you will require some tools to use it.
 3. Command line is required to cd over to project file as well as to run Node and MongoDB Commands.
 ## How to run it
 1. store the project folder in your system.
-2. cd over to project folder 
- open command line
+2. open command line
  * run  cd "Folder Path"
  * open second tab and run mongod
  * in firt tab, run node app.js
