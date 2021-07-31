@@ -25,7 +25,7 @@ Well you will require some tools to use it.
  ### Now if you get this window than you done all well
  ![Success image](https://github.com/Bhagi-developer/ToDo-List/blob/main/GitHub_success-img.png)
   ### Now if you you want to add new list or use existing list then
- ![Success image](https://github.com/Bhagi-developer/ToDo-List/blob/main/GitHub_success-img.png)
+ ![Success image](https://github.com/Bhagi-developer/ToDo-List/blob/main/GitHub_NewList-img.png)
  ### do as uper image shows
  
   
