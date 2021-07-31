@@ -18,6 +18,7 @@ Well you will require some tools to use it.
 1. store the project folder in your system.
 2. open command line
  * run  cd "Folder Path"
+ * run npm i
  * open second tab and run mongod
  * in first tab, run node app.js
  3. open any browser and write localhost:3000 and click enter
